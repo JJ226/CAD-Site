@@ -26,7 +26,7 @@ const projectsData = [
         season: "2023-24",
         country: "California",
         description: '',
-        tags: ["FTC", "Centerstage"],
+        tags: ["Centerstage"], //"FTC"
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/e90c60b27e433977608b9152/w/59237bb6890d87eb1fd8994c/e/752f3b7b2968df845d6e46fe?renderMode=0&uiState=68488124e97b2d1c16e4f9d9", icon: "fas fa-cube" }
         ]
@@ -41,7 +41,7 @@ const projectsData = [
         season: "2022-23",
         country: "California",
         description: "",
-        tags: ["FTC", "Powerplay"],
+        tags: ["Powerplay"],
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/1da9466f4ce20e1dd363e947/w/5f345e29b57b59c6e597a831/e/56d6b5b9e0591e7cd6478ee9?renderMode=0&uiState=68487fe6738b5b327a021919", icon: "fas fa-cube" }
         ]
@@ -55,7 +55,7 @@ const projectsData = [
         season: "2024-25",
         country: "California",
         description: "",
-        tags: ["FTC", "Into the Deep"],
+        tags: ["Into the Deep"],
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/170256185392c6aba00470ce/w/0cfbfe8478157d854f3f8a02/e/e6c65e2262ac2eac51b47f25", icon: "fas fa-cube" }
         ]
@@ -69,7 +69,7 @@ const projectsData = [
         season: "2024-25",
         country: "Beijing, China",
         description: "",
-        tags: ["FTC", "Into the Deep", "International"],
+        tags: ["Into the Deep"],
         links: [
             { text: "OnShape CAD", url: "https://cad.onshape.com/documents/c32e62fa8f9af654031f9b3c/w/2eab644d6a609b795ce9a77a/e/536f9659549c434f5e0964c3", icon: "fas fa-cube" }
         ]
@@ -82,8 +82,8 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Kazakhstan",
-        description: "Kazakhstan FTC team's robot design featuring unique engineering solutions.",
-        tags: ["FTC", "Into the Deep", "Unique Engineering"],
+        description: "",
+        tags: ["Into the Deep"],
         links: [
             { text: "Google Drive", url: "https://drive.google.com/file/d/1o1S0sibZfOB8pSwWLc75GxJvxh2aKdH4/view?usp=sharing", icon: "fab fa-google-drive" }
         ]
@@ -96,8 +96,8 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Indonesia",
-        description: "Indonesian FTC team's innovative robot design for underwater challenges.",
-        tags: ["FTC", "Into the Deep", "Innovative Design"],
+        description: "",
+        tags: ["Into the Deep"],
         links: [
             { text: "OnShape CAD", url: "https://cad.onshape.com/documents/a080e33adb86f752eda2db0d/w/fa722723c4ec84c3256b1a7b/e/c246c7b98c62703770172f31", icon: "fas fa-cube" }
         ]
@@ -110,8 +110,8 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Romoland, California",
-        description: "California FTC team specializing in precision gear mechanisms and drivetrains.",
-        tags: ["FTC", "Into the Deep", "Gear Mechanisms"],
+        description: "",
+        tags: ["Into the Deep"],
         links: [
             { text: "Google Drive", url: "https://drive.google.com/drive/folders/18JVktEYcFQx-_DtrzhA60dKceSzz2HPM?usp=sharing", icon: "fab fa-google-drive" }
         ]
@@ -124,8 +124,8 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Palmdale, California",
-        description: "FTC robot for Reefscape season with advanced scoring mechanisms.",
-        tags: ["FTC", "Reefscape", "Advanced Scoring"],
+        description: "",
+        tags: ["Reefscape"],
         links: [
             { text: "OnShape CAD", url: "https://cad.onshape.com/documents/f2823d606f50281ed95feaf6/w/f9ed0af4f276e511a5dd41fa/e/1d7fb63b33b3ae711826e788", icon: "fas fa-cube" }
         ]
@@ -138,8 +138,8 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Moreno Valley, CA",
-        description: "Moreno Valley FTC team's robot design for Into the Deep competition.",
-        tags: ["FTC", "Into the Deep", "Competition Ready"],
+        description: "",
+        tags: ["Into the Deep"],
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/03dfa5ebab4f6179fdf0cd17/w/514335ceb8eced7fde7747f7/e/ef759f56c0a024601169fca2", icon: "fas fa-cube" }
         ]
@@ -152,8 +152,8 @@ const projectsData = [
         program: "FTC",
         season: "2020",
         country: "Saint-Petersberg, Russia",
-        description: "Russian FTC team's robot design for Ultimate Goal season with creative engineering.",
-        tags: ["FTC", "Ultimate Goal", "Creative Engineering"],
+        description: "",
+        tags: ["Ultimate Goal"],
         links: [
             { text: "Fusion 360", url: "https://a360.co/4nbEtTq", icon: "fas fa-cube" }
         ]
@@ -166,8 +166,8 @@ const projectsData = [
         program: "FTC",
         season: "2020",
         country: "Saint-Petersberg, Russia",
-        description: "Russian FTC team's innovative robot design for Ultimate Goal competition.",
-        tags: ["FTC", "Ultimate Goal", "Innovative Design"],
+        description: "",
+        tags: ["Ultimate Goal"],
         links: [
             { text: "Fusion 360", url: "https://a360.co/4prEBjc", icon: "fas fa-cube" }
         ]
@@ -180,8 +180,8 @@ const projectsData = [
         program: "FTC",
         season: "2021",
         country: "Saint-Petersberg, Russia",
-        description: "Russian FTC team's robot design for Freight Frenzy season with cargo handling systems.",
-        tags: ["FTC", "Freight Frenzy", "Cargo Handling"],
+        description: "",
+        tags: ["Freight Frenzy"],
         links: [
             { text: "Fusion 360", url: "https://a360.co/46py5ks", icon: "fas fa-cube" }
         ]
@@ -194,8 +194,8 @@ const projectsData = [
         program: "FTC",
         season: "2022-23",
         country: "Saint-Petersberg, Russia",
-        description: "Russian FTC team's robot design for Powerplay season with advanced power systems.",
-        tags: ["FTC", "Powerplay", "Power Systems"],
+        description: "",
+        tags: ["Powerplay"],
         links: [
             { text: "Fusion 360", url: "https://a360.co/41UQUdI", icon: "fas fa-cube" }
         ]
@@ -208,8 +208,8 @@ const projectsData = [
         program: "FTC",
         season: "2023-24",
         country: "Saint-Petersberg, Russia",
-        description: "Russian FTC team's robot design for Centerstage season with precision mechanisms.",
-        tags: ["FTC", "Centerstage", "Precision Mechanisms"],
+        description: "",
+        tags: ["Centerstage"],
         links: [
             { text: "Fusion 360", url: "https://a360.co/3YGdFQV", icon: "fas fa-cube" }
         ]
