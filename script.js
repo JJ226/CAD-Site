@@ -14,7 +14,8 @@ const projectsData = [
         tags: ["FTC", "Into the Deep", "Advanced Mechanisms"],
         links: [
             {text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/e572c65123251ef45b66f39e/w/f34b2f76e28714ad4e8fabda/e/53a251850136ccbe839f52d5?renderMode=0&uiState=68487e49a0494d1fc0b81a6f"}
-        ]
+        ],
+        thumbnail: "https://www.google.com/imgres?q=test%20image&imgurl=https%3A%2F%2Fwww.fentonmemorials.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fcanstockphoto22402523-arcos-creator.com_-1024x1024-1.jpg&imgrefurl=https%3A%2F%2Fwww.fentonmemorials.com%2Fproduct%2Ftest-product%2F%3Fsrsltid%3DAfmBOooWT2wq74zmCAPhsitPhQFgQZq9izDAnKLGG0OYCZJpoYkzrZxr&docid=EMSn7T-oN2O-4M&tbnid=9eq5SSvK9niQEM&vet=12ahUKEwievc6TkIOQAxXNMUQIHSEaIh0QM3oECBkQAA..i&w=1024&h=1024&hcb=2&ved=2ahUKEwievc6TkIOQAxXNMUQIHSEaIh0QM3oECBkQAA"
     },
     {
         id: 2,
@@ -212,8 +213,46 @@ const projectsData = [
         links: [
             { text: "Fusion 360", url: "https://a360.co/3YGdFQV", icon: "fas fa-cube" }
         ]
+        
     }
 ];
+
+function renderRobots() {
+    const container = document.getElementById('robots-container');
+    robots.forEach(robot => {
+        const robotElement = document.createElement('div');
+        robotElement.classList.add('robot');
+        
+        const thumbnail = document.createElement('img');
+        thumbnail.src = robot.thumbnail;
+        thumbnail.alt = `${robot.title} Thumbnail`;
+
+        const title = document.createElement('h2');
+        title.innerText = robot.title;
+
+        const description = document.createElement('p');
+        description.innerText = robot.description;
+
+        const linksList = document.createElement('ul');
+        robot.links.forEach(link => {
+            const linkElement = document.createElement('li');
+            const anchor = document.createElement('a');
+            anchor.href = link.url;
+            anchor.innerText = link.text;
+            linkElement.appendChild(anchor);
+            linksList.appendChild(linkElement);
+        });
+
+        robotElement.appendChild(thumbnail);
+        robotElement.appendChild(title);
+        robotElement.appendChild(description);
+        robotElement.appendChild(linksList);
+        container.appendChild(robotElement);
+    });
+}
+
+renderRobots();
+
 
 // Google Sheet config (GViz JSON)
 const GOOGLE_SHEET_ID = '1snp1ROWqbTpuxhxcNPTm7MDR_iuvI27wdZBAFR_GkDY';
