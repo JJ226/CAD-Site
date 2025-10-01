@@ -11,7 +11,7 @@ const projectsData = [
         season: "2024-25",
         country: "California",
         description: '',
-        tags: ["FTC", "Into the Deep", "Advanced Mechanisms"],
+        tags: ["Into the Deep"],
         links: [
             {text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/e572c65123251ef45b66f39e/w/f34b2f76e28714ad4e8fabda/e/53a251850136ccbe839f52d5?renderMode=0&uiState=68487e49a0494d1fc0b81a6f"}
         ],
@@ -26,7 +26,7 @@ const projectsData = [
         season: "2023-24",
         country: "California",
         description: '',
-        tags: ["FTC", "Centerstage", "Precision Scoring"],
+        tags: ["FTC", "Centerstage"],
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/e90c60b27e433977608b9152/w/59237bb6890d87eb1fd8994c/e/752f3b7b2968df845d6e46fe?renderMode=0&uiState=68488124e97b2d1c16e4f9d9", icon: "fas fa-cube" }
         ]
@@ -41,7 +41,7 @@ const projectsData = [
         season: "2022-23",
         country: "California",
         description: "",
-        tags: ["FTC", "Powerplay", "Power Management"],
+        tags: ["FTC", "Powerplay"],
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/1da9466f4ce20e1dd363e947/w/5f345e29b57b59c6e597a831/e/56d6b5b9e0591e7cd6478ee9?renderMode=0&uiState=68487fe6738b5b327a021919", icon: "fas fa-cube" }
         ]
@@ -54,8 +54,8 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "California",
-        description: "Advanced FTC robot design for underwater-themed competition challenges.",
-        tags: ["FTC", "Into the Deep", "Advanced Design"],
+        description: "",
+        tags: ["FTC", "Into the Deep"],
         links: [
             { text: "OnShape CAD", url: "https://marlborough.onshape.com/documents/170256185392c6aba00470ce/w/0cfbfe8478157d854f3f8a02/e/e6c65e2262ac2eac51b47f25", icon: "fas fa-cube" }
         ]
@@ -68,7 +68,7 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Beijing, China",
-        description: "International FTC team's innovative robot design for Into the Deep season.",
+        description: "",
         tags: ["FTC", "Into the Deep", "International"],
         links: [
             { text: "OnShape CAD", url: "https://cad.onshape.com/documents/c32e62fa8f9af654031f9b3c/w/2eab644d6a609b795ce9a77a/e/536f9659549c434f5e0964c3", icon: "fas fa-cube" }
