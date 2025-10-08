@@ -110,7 +110,7 @@ const projectsData = [
         program: "FTC",
         season: "2024-25",
         country: "Romoland, California",
-        description: "California FTC team specializing in precision gear mechanisms and drivetrains.",
+        description: "",
         tags: ["FTC", "Into the Deep", "Gear Mechanisms"],
         links: [
             { text: "Google Drive", url: "https://drive.google.com/drive/folders/18JVktEYcFQx-_DtrzhA60dKceSzz2HPM?usp=sharing", icon: "fab fa-google-drive" }
@@ -202,18 +202,33 @@ const projectsData = [
     },
     {
         id: 15,
-        title: "Centerstage Robot",
+        title: "Into the Deep Robot",
         teamName: "Aperture in Reasons",
         teamNumber: "18742",
         program: "FTC",
-        season: "2023-24",
+        season: "2024-25",
         country: "Saint-Petersberg, Russia",
         description: " ",
-        tags: ["FTC", "Centerstage", "Precision Mechanisms"],
+        tags: ["FTC", "Into the deep", "Precision Mechanisms"],
         links: [
             { text: "Fusion 360", url: "https://a360.co/3YGdFQV", icon: "fas fa-cube" }
         ]
         
+    },
+
+    {
+         id: 1,
+         title: '       Into the Deep   robot',
+         teamName: 'Marlbots',
+         teamNumber: '3526',
+         program: 'FTC',
+         season: '24-25 ',
+         country: 'California',
+         Description: '' ,
+         tags: ['FTC','24-25    '],
+        links: [
+            { text: +'Onshape',url: 'https://marlborough.onshape.com/documents/1da9466f4ce20e1dd363e947/w/5f345e29b57b59c6e597a831/e/56d6b5b9e0591e7cd6478ee9?renderMode=0&uiState=68487fe6738b5b327a021919',icon: 'fas fa-cube'}
+               ]
     }
 ];
 
