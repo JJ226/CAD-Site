@@ -12,11 +12,11 @@ def layout(rowNum, name, num, pro, game, sea, country, url, format):
     print ("        links: [")
     print ("            { text: " + "+" + "'" + format + "'" + "," + "url: " + "'" + url+ "'" + "," + "icon: 'fas fa-cube'" "}")
     print ("               ]")
-    print ("}")
+    print ("},")
 
 
-layout("1","Marlbots",	"3526",	"FTC","	Into the Deep	","24-25	","California", "https://marlborough.onshape.com/documents/1da9466f4ce20e1dd363e947/w/5f345e29b57b59c6e597a831/e/56d6b5b9e0591e7cd6478ee9?renderMode=0&uiState=68487fe6738b5b327a021919", "Onshape")
-layout ("15"	"Workshop of Eternal Nonsense",	"17517",	"FTC",	"Freight Frenzy",	"21-22",	"Saint-Petersberg, Russia",	"https://a360.co/4n5Slyq",	"Fusion 360")
+layout("23",	"Despicable Machine",	"6200",	"FTC",	"Into the Deep",	"24-25",	"Illinois",	"https://drive.google.com/drive/folders/1Jc2aDUr9MgoXgqtQy61NlD3kQQAGX1Ivv",	"Onshape")
+layout("24",	"Despicable Machine	","m200",	"FTC",	"Powerplay",	"22-23",	"Illinois",	"https://drive.google.com/drive/folders/1YkzKEg-sL1i_bhEUy8mUvcaZLqrV_oW3",	"Onshape")
 
 """
  + ","
